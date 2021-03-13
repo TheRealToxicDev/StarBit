@@ -13,10 +13,10 @@ client.limits = new Map();
 
 client.config = config;
 
-const commands = require ('../modules/commands');
+const commands = require ('./modules/commands');
 commands.run(client);
 
-const events = require ('../modules/events');
+const events = require ('./modules/events');
 events.run(client);
 
 client.login(config.token);
