@@ -1,6 +1,6 @@
 const { Discord, Collection, MessageEmbed } = require ('discord.js');
 const Database = require('better-sqlite3');
-const db = new Database('../sql/star.db');
+const db = new Database('star.db');
 const config = require('../config');
 
 const getMessageFromDB = require ('../functions/getMessageFromDB');
