@@ -19,4 +19,4 @@ commands.run(client);
 const events = require ('../modules/events');
 events.run(client);
 
-client.login(token);
+client.login(config.token);
